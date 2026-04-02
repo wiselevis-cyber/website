@@ -1,55 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WiseLevis | Coming Soon</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WiseLevis | Under Construction</title>
 
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #0f172a, #1e293b);
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        .box {
-            text-align: center;
-            padding: 50px;
-            border-radius: 15px;
-            background: rgba(255,255,255,0.05);
-        }
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at center, #1e293b, #020617);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-        h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
+.container {
+    text-align: center;
+    max-width: 800px;
+    padding: 50px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.05);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+    backdrop-filter: blur(12px);
+}
 
-        p {
-            font-size: 18px;
-            opacity: 0.8;
-        }
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #facc15;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
 
-        a {
-            color: #38bdf8;
-            text-decoration: none;
-        }
-    </style>
+.bar {
+    height: 6px;
+    width: 120px;
+    background: repeating-linear-gradient(
+        45deg,
+        #facc15,
+        #facc15 10px,
+        #000 10px,
+        #000 20px
+    );
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.contact {
+    margin-top: 25px;
+    font-size: 1rem;
+}
+
+.email {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+/* Construction icons */
+.icons {
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+}
+
+.brand {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    color: #38bdf8;
+    margin-bottom: 5px;
+}
+
+.copy {
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+</style>
+
 </head>
 
 <body>
-    <div class="box">
-        <h1>WISELEVIS</h1>
-        <p>Website coming soon.</p>
 
-        <p style="margin-top:20px;">
-            If you have any inquiries:<br>
-            <a href="mailto:info@wiselevis.com">info@wiselevis.com</a>
-        </p>
+<div class="container">
+
+    <div class="title">UNDER CONSTRUCTION</div>
+
+    <div class="bar"></div>
+
+    <p class="subtitle">
+        We're building something exceptional.<br>
+        Please check back soon.
+    </p>
+
+    <div class="icons">
+        🚧 🪜 🚧
     </div>
+
+    <div class="contact">
+        If you have any inquiries:<br><br>
+        <a class="email" href="mailto:info@wiselevis.com">
+            info@wiselevis.com
+        </a>
+    </div>
+
+    <div class="footer">
+        <div class="brand">WISELEVIS 2026</div>
+        <div class="copy">All rights reserved</div>
+    </div>
+
+</div>
+
 </body>
 </html>
